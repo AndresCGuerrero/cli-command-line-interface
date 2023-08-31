@@ -23,23 +23,37 @@ user1
 - `clear` cleans the terminal.
 - `ls` shows all the content in the especified directory.
 - `~` represents the _home_ directory.
+
+```bash
+~OneDrive/Desktop/prog/proyect-1/assets
+ -->
+$ cd ~
+ -->
+~users/user1
+```
+
 - `/` represents the _root_ directory.
 - `.` represents the _actual_ directory.
 - `..` represents the _father_ directory, with it you can go back by one 'level'.
+
+  Going back to the father directory:
+
+```bash
+~OneDrive/Desktop/prog/proyect-1/assets
+$ cd ..
+ -->
+~OneDrive/Desktop/prog
+ -->
+$ cd ..
+~OneDrive/Desktop
+```
+
 - `-` represents the _previous_ directory, with it you can go back to the previous directory.
 - `""` Folders or files whose name has whitespaces, need to be named between quotation marks.
 - `cd` (change directory) enters a directory or switch from one to another.
 
 ```bash
 $ cd /c/users/user1/desktop
-```
-
-Going back to a previousdirectory:
-
-```bash
-$ cd /c/users/user1/desktop ..
- -->
-$ cd /c/users/user1
 ```
 
 - `touch` creates files, such as: _README.md, index.html, styles.css, index.js_, etc.
